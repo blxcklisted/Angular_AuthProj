@@ -18,6 +18,7 @@ namespace AngularAuthAPI.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+
     public class UserController : ControllerBase
     {
         private readonly ApplicationDbContext authContext;
